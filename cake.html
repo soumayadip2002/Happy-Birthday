@@ -11,8 +11,8 @@
 
 <body>
 
-    <audio autoplay>
-        <source src="happy-birthday-to-you-traditional-song.mp3" type="audio/mpeg">
+    <audio autoplay id="audio">
+        <source src="happy-birthday-to-you-traditional-song.mp3" type="audio/mp3">
     </audio>
     <div class="velas">
         <div class="fuego"></div>
@@ -179,7 +179,11 @@
             <button type="submit">click me</button>
         </a>
     </div>
-
+    <script>
+        var vid = document.getElementById("audio");
+        vid.autoplay = true;
+        vid.load();
+    </script>
 </body>
 
 </html>

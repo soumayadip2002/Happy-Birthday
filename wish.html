@@ -13,8 +13,8 @@
 
 <body>
 
-    <audio autoplay>
-        <source src="./falling-in-love-piano-solo-132144.mp3" type="audio/mpeg">
+    <audio autoplay id="audio">
+        <source src="./falling-in-love-piano-solo-132144.mp3" type="audio/mp3">
     </audio>
     <div class="card">
         <img src="https://cdn.pixabay.com/photo/2020/10/06/21/54/cake-5633461__480.png" alt="birthday" class="birthday">
@@ -29,6 +29,12 @@
         </div>
         <div class="space"></div>
     </div>
+
+    <script>
+        var vid = document.getElementById("audio");
+        vid.autoplay = true;
+        vid.load();
+    </script>
 </body>
 
 </html>
