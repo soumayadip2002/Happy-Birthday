@@ -1,5 +1,6 @@
 * {
     transition: all 0.2s ease-in-out;
+    color: #DCE35B;
 }
 
 body {
@@ -26,7 +27,6 @@ body {
     align-items: center;
     padding: 1em;
     overflow: hidden;
-    color: #DCE35B;
 }
 
 @media only screen and (min-width: 1000px) {
