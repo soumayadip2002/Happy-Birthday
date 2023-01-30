@@ -1,3 +1,3 @@
 function bulb_off() {
-    document.getElementById('bulb').src = './img/candle off.gif'
+    document.getElementById('bulb').src = './img/video2.gif'
 }
