@@ -28,14 +28,12 @@ body {
 .blow {
     display: flex;
     justify-content: center;
-    background: var(--skin-color);
     padding: 1rem;
 }
 
 .click {
     display: flex;
     justify-content: center;
-    background: var(--skin-color);
     padding: 1rem;
 }
 
@@ -47,12 +45,13 @@ body {
 button {
     padding: .5rem;
     border-radius: .5rem;
-    background: var(--background-color);
+    background: var(--skin-color);
     overflow: hidden;
     outline: none;
     border: none;
     box-sizing: border-box;
     cursor: pointer;
+    margin-left: -1rem;
 }
 
 button:hover {
