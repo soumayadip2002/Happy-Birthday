@@ -53,17 +53,23 @@ body {
 }
 
 img.birthday {
+    margin-top: -1.5rem;
     max-height: 40vh;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.text {
-    padding: 3em;
+.text p {
+    margin-top: 2rem;
 }
 
 .text h1 {
+    margin-top: 1rem;
     font-family: cursive;
     font-size: 40px;
+}
+
+.text h3 {
+    margin-top: -1rem;
 }
 
 .space {
